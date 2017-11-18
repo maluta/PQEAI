@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import PQEAIbutton from './components/pqeai_button'
 import PQEAIinput from './components/pqeai_input'
+import PQEAIlabel from './components/pqeai_label'
 import './App.css';
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <p className="App-intro">
           <PQEAIinput />
           <PQEAIbutton />
+          <PQEAIlabel />
         </p>
       </div>
     );
