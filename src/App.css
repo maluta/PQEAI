@@ -9,8 +9,8 @@
 
 .App-header {
   background-color: darkblue;
-  height: 50px;
-  padding: 20px;
+  height: 1px;
+  padding: 5px;
   color: white;
 }
 
@@ -20,6 +20,11 @@
 
 .App-intro {
   font-size: large;
+}
+
+.pqeai_input {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 32px;
 }
 
 .pqeai_label {

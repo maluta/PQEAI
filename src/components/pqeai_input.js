@@ -7,7 +7,7 @@ const Input = styled.input`
   font-size: 1em;
   margin: 1em;
   padding: 0.25em 1em;
-  border: 2px solid blue;
+  border: 2px dashed blue;
   border-radius: 3px;
 `;
 class PQEAIinput extends Component {
@@ -18,9 +18,9 @@ class PQEAIinput extends Component {
   render() {
     return (
       <div>
-      <p>
-        Para que eu aprendo <Input onChange = { (e) => this.props.trataInput(e) } /> ?
-      </p>
+      <p className="pqeai_input">Para que eu aprendo?</p>
+        <Input onChange = { (e) => this.props.trataInput(e) } />
+      <p className="pqeai_input">?</p>
       </div>
     );
   }
