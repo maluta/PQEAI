@@ -20,7 +20,7 @@ class PQEAIbutton extends Component {
   render() {
     return (
       <div>
-        <Button onClick={ this.props.Clique }>Add Label</Button>
+        <Button onClick={ this.props.Clique }>Me ajuda</Button>
       </div>
     );
   }

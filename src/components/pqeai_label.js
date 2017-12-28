@@ -9,7 +9,7 @@ class PQEAIlabel extends Component {
     return (
       <div className="pqeai_label">
       <p>
-        {this.props.texto_do_label}
+        Resposta para {this.props.texto_do_label} !
       </p>
       </div>
     );

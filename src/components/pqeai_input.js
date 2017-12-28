@@ -18,7 +18,9 @@ class PQEAIinput extends Component {
   render() {
     return (
       <div>
-        <Input onChange = { (e) => this.props.trataInput(e) } />
+      <p>
+        Para que eu aprendo <Input onChange = { (e) => this.props.trataInput(e) } /> ?
+      </p>
       </div>
     );
   }
