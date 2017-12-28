@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: darkblue;
-  height: 150px;
+  height: 50px;
   padding: 20px;
   color: white;
 }
@@ -23,9 +23,10 @@
 }
 
 .pqeai_label {
-  background-color: darkblue;
+  background-color: red;
   padding: 50px;
   color: white;
+  font-size: 50px;
 }
 
 @keyframes App-logo-spin {
